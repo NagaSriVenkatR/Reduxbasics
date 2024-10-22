@@ -1,4 +1,4 @@
-// import {createStore} from "redux";
+// import {createStore} from "redux"
 // const initialState = {
 //   cart: []
 // };
@@ -18,12 +18,12 @@
 //       return state;
 //   }
 // };
-// const store = createStore(cartReducer)
+// const store = createStore(cartReducer);
 // export default store;
-import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from '../features/counter/Slice'
-export default configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
-});
+// // import { configureStore } from "@reduxjs/toolkit";
+// // import counterReducer from '../features/counter/Slice'
+// // export default configureStore({
+// //   reducer: {
+// //     counter: counterReducer,
+// //   },
+// // });

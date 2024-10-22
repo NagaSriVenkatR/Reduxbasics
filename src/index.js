@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
-import Store from './App/Store';
+import Store from './Redux/Store/Store';
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);

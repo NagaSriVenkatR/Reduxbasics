@@ -1,5 +1,5 @@
 import './App.css';
-import { Counter } from './features/counter/Counter';
+import  Counter  from './Redux/Counter/Counter';
 // import Cart from './App/Cart'
 function App() {
   return (
